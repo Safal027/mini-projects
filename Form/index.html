@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+<head>
+    <meta name="viewport" content=" width=device-width,  initial-scale=1.0">
+    <title>
+        Sample Form
+    </title>
+</head>
+<center>
+<body bgcolor="lightcyan">
+    <div class="head1">
+        
+    <h1>Sample Form</h1>
+    <u>
+    <p class="p">
+        Participants are required to fill all the information asked below
+    </p>
+    </u>
+    </div>
+    <br>
+    <form action="https://formspree.io/f/mldrknvp" method="POST">
+<div class="allcontainer">
+    <div class="n">
+    <label>Full Name:</label>
+    <br>   
+    <input class="name" required placeholder="Name" name="Full Name">
+    </div>
+    <br>
+    <div class="a">
+    <label>Age:</label>
+    <br>
+    <input class="age" id="age" type="range" min="13" max="100" step="1" value="0" oninput="ageOutput.value=age.value" required name="Age">
+    <br>
+ <output id="ageOutput">13     
+ </output>
+ </div>
+    <br>
+    <div class="g">
+    <label>Gender:</label>
+    <br>
+    
+    <input type="radio" class="male" name="Gender" required>
+    <label>Male</label>
+    <br>
+    <input type="radio" class="female" name="Gender" required>
+    <label>Female</label>
+    <br>
+    <input type="radio" class="other" name="Gender" required>
+    <label>Other</label>
+    </div>
+    <br>
+    <div>
+        <label>Address:</label>
+        <br>
+    <select class="address" required name="Address">
+    <option disabled selected value="">Select your district</option>
+    <option>Achham</option>
+    <option>Arghakhanchi</option>
+    <option>Baglung</option>
+    <option>Baitadi</option>
+    <option>Bajhang</option>
+    <option>Bajura</option>
+    <option>Banke</option>
+    <option>Bara</option>
+    <option>Bardiya</option>
+    <option>Bhaktapur</option>
+    <option>Bhojpur</option>
+    <option>Chitwan</option>
+    <option>Dadeldhura</option>
+    <option>Dailekh</option>
+    <option>Dang</option>
+    <option>Darchula</option>
+    <option>Dhading</option>
+    <option>Dhankuta</option>
+    <option>Dhanusha</option>
+    <option>Dholkha</option>
+    <option>Dolpa</option>
+    <option>Doti</option>
+    <option>Eastern Rukum</option>
+    <option>Gorkha</option>
+    <option>Gulmi</option>
+    <option>Humla</option>
+    <option>Ilam</option>
+    <option>Jajarkot</option>
+    <option>Jhapa</option>
+    <option>Jumla</option>
+    <option>Kailali</option>
+    <option>Kalikot</option>
+    <option>Kanchanpur</option>
+    <option>Kapilvastu</option>
+    <option>Kaski</option>
+    <option>Kathmandu</option>
+    <option>Kavrepalanchok</option>
+    <option>Khotang</option>
+    <option>Lalitpur</option>
+    <option>Lamjung</option>
+    <option>Mahottari</option>
+    <option>Makwanpur</option>
+    <option>Manang</option>
+    <option>Morang</option>
+    <option>Mugu</option>
+    <option>Mustang</option>
+    <option>Myagdi</option>
+    <option>Nawalpur</option>
+    <option>Nuwakot</option>
+    <option>Okhaldhunga</option>
+    <option>Palpa</option>
+    <option>Panchthar</option>
+    <option>Parasi</option>
+    <option>Parbat</option>
+    <option>Parsa</option>
+    <option>Pyuthan</option>
+    <option>Ramechhap</option>
+    <option>Rasuwa</option>
+    <option>Rautahat</option>
+    <option>Rolpa</option>
+    <option>Rupandehi</option>
+    <option>Salyan</option>
+    <option>Sankhuwasabha</option>
+    <option>Saptari</option>
+    <option>Sarlahi</option>
+    <option>Sindhuli</option>
+    <option>Sindhupalchok</option>
+    <option>Siraha</option>
+    <option>Solukhumbu</option>
+    <option>Sunsari</option>
+    <option>Surkhet</option>
+    <option>Syangja</option>
+    <option>Tanahun</option>
+    <option>Taplejung</option>
+    <option>Tehrathum</option>
+    <option>Udayapur</option>
+    <option>Western Rukum</option>
+</select>
+    </div>
+    <br>
+    <div class="e">
+    <label>Email:</label>
+    <br>
+    <input class="email" type="Email" required placeholder="example123@gmail.com" name="Email">
+    </div>
+    <br>
+    <div class="c">
+    <label>Contact Number:</label>
+    <br>
+    <input class="cn" type="Contact Number" required placeholder="0123456789" name="Contact Number">
+    </div>
+    <br>
+    <div class="i">
+    <label>ID Number:</label>
+    <br>
+    <input class="id" type="ID Number" required placeholder="1234" name="ID Number">
+    </div>
+    <br>
+    <div class="img">
+        <label>Your Photo (Passport Size):</label>
+        <br>
+        <input type="file" required name="Photo">
+        </div>
+        <br>
+        <br>
+    <b>     
+    <button class="submit">Submit</button>
+    </b>
+</div>
+</form>
+</center>
+<br>
+<p class="by">
+        <b>
+-By Safal Adhikari
+</b>
+</p>
+</body>

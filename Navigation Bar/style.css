@@ -1,0 +1,47 @@
+
+.todo {   
+    background-color: white; 
+    color: black;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.about {   
+    background-color: #4cb050;      
+    color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.home {
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.contact {
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.navbar { 
+   background-color: #333333; 
+   height: 70px;
+    padding: 0; 
+    margin: 0;
+    text-align: right;    
+    }
+    
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 5px;    
+}

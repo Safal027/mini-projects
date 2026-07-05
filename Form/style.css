@@ -1,0 +1,83 @@
+.submit {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 100px;
+    border-width: 0px;
+    color: white;        
+    font-size: 100%;
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+.allcontainer {
+    background-color: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.name {
+width: 75%;
+}
+
+.head1 {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 15px;
+}
+
+.p{
+    padding-bottom: 20px;
+}
+
+.age {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 50%;
+            height: 8px;
+         background-color: lightgrey;   
+         border-radius: 25px;                 
+        }
+
+        .age::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+          
+            width: 17px;
+            height: 17px;
+            background: darkcyan;
+            
+            border-radius: 100%;
+           
+           border-radius: 100%;
+    
+            
+        }
+               
+
+.male, .female, .other {
+    accent-color: darkcyan;
+}
+
+.by {
+    text-align: right;
+    font-size: 100%;
+    font-family: 'Dancing Script';
+    margin-right: 12px;
+}
+
+.address {
+    width: 75%;
+}
+
+.email {
+    width: 75%;
+}
+
+.cn {
+    width: 75%;
+}
+
+.id {
+    width: 75%;
+}
