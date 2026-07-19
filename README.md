@@ -40,6 +40,8 @@ python dices.py
 | `rock_paper_scissors/` | `rock_paper_scissors.py` | A terminal-based Rock, Paper, Scissors game to play against the computer. |
 | `running_car/` | `running_car.py` | A text-based car simulation game where you can `start`, `stop`, and `quit` using commands. |
 | `weight_unit_converter/` | `weight_unit_converter.py` | A utility to convert weight between kilograms (kg) and pounds (lbs). |
+| `coffee_ordering_app/` | `coffee_ordering_app.py` | A simple python program where it lets user to `order coffee`, `view order`, `checkout`, `cancel`, and `exit`. |
+| `secret_language_encoder_and_decoder/` | `secret_language_encoder_and_decoder.py` | A python program where the user can encode and decode a secret language. |
 
 ## License
 
